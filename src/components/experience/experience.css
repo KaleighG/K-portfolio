@@ -1,3 +1,8 @@
+/* Define CSS variables if needed */
+:root {
+  --transition: 0.3s ease; /* You can adjust the transition time */
+}
+
 .experience__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -12,22 +17,25 @@
   padding: 2rem;
   text-align: center;
   transition: var(--transition);
+  animation: neon-glow 1s infinite alternate;
 }
 
-.experience__container > div:hover {
+@keyframes neon-glow {
+  to {
+    text-shadow: 0 0 10px #8a2be2, 0 0 20px #8a2be2, 0 0 30px #8a2be2;
+    box-shadow: 0 0 10px #8a2be2, 0 0 20px #8a2be2, 0 0 30px #8a2be2;
+  }
 }
 
 .experience__container > div h3 {
   text-align: center;
   margin-bottom: 2rem;
-  color: black;
 }
 
 .experience__content {
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 2rem;
-  color: silver;
 }
 
 .experience__details {
@@ -36,34 +44,47 @@
   gap: 1rem;
 }
 
+
+
+.experience__details:hover .experience__icons {
+  color: rgb(114, 13, 237);
+  animation: neon-glow 1s infinite alternate;
+}
+
+@keyframes neon-glow {
+  to {
+    text-shadow: 0 0 5px #8a2be2, 0 0 10px #b5ca28, 0 0 20px #8a2be2;
+  }
+}
+
+
 .experience__details-icon {
   margin-top: 6px;
 }
 
-.experience_icons {
+ 
+
+.i .experience_title {
   text-align: center;
   letter-spacing: 2px;
 }
 
-.experience__frontend:hover {
+.experience__frontend,
+.experience__backend {
   border-color: rgb(114, 13, 237);
   font-weight: bold;
   cursor: default;
-  text-shadow: 0 0 10px #8a2be2, 0 0 20px #8a2be2, 0 0 30px #8a2be2;
-  animation: neon-glow 3s infinite alternate;
 }
 
+.experience__frontend:hover,
 .experience__backend:hover {
-    border-color: rgb(114, 13, 237);
-    font-weight: bold;
-    cursor: default;
-    text-shadow: 0 0 10px #8a2be2, 0 0 20px #8a2be2, 0 0 30px #8a2be2;
-    animation: neon-glow 3s infinite alternate;
-  }
+  animation: neon-glow 1s infinite alternate;
+}
 
 @keyframes neon-glow {
   to {
-    text-shadow: 0 0 5px #8a2be2, 0 0 10px #b5ca28, 0 0 35px #8a2be2;
+    text-shadow: 0 0 10px #8a2be2, 0 0 20px #8a2be2, 0 0 30px #8a2be2;
+    box-shadow: 0 0 10px #8a2be2, 0 0 20px #8a2be2, 0 0 30px #8a2be2;
   }
 }
 

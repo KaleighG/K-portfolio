@@ -7,7 +7,7 @@ import { FaBootstrap } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { TbFileTypeSql } from "react-icons/tb";
-import { FaJava } from "react-icons/fa";
+import { DiJava } from "react-icons/di";
 import { SiSpring } from "react-icons/si";
 import { SiDjango } from "react-icons/si";
 
@@ -19,10 +19,13 @@ function Experience() {
       
       <div className="container experience__container">
         <div className="experience__frontend">
-          <h3 className="experience__icons">Frontend Development</h3>
+          <h3 className="experience__title">Frontend Development</h3>
           <div className="experience__content">
             <article className='experience__details'>
-              <FaHtml5 className='experience__icons'/>
+              <div className="icon">
+                <FaHtml5 className='experience__icons'/>
+
+              </div>
               <div>
                 <h4>HTML</h4>
                 <small>Experienced</small>
@@ -83,7 +86,8 @@ function Experience() {
               </div>
             </article>
             <article className='experience__details'>
-              <FaJava   />
+              <DiJava className='experience__icons'/>
+   
               <div>
                 <h4>Java</h4>
                 <small>Experienced</small>

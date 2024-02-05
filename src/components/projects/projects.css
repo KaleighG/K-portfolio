@@ -2,24 +2,26 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2.5rem;
-  
 }
-
 
 .portfolio__container img {
-  height: 500px;
-  width: 500px;
+  height: 400px;
+  width: 400;
 }
-.portfolio__items {
-  background: black;
-  padding: 1.5rem;
+article.portfolio__item {
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
+  background-color: rgb(154, 5, 253);
+  padding: 5%;
+  text-align: center;
+  background: url("https://static.vecteezy.com/system/resources/previews/030/678/816/non_2x/purple-texture-high-quality-free-photo.jpg");
+  background-position: center;
 }
 
 .portfolio__item:hover {
   border-color: purple;
+  backdrop-filter: blur(10px);
   background: transparent;
 }
 

@@ -30,7 +30,7 @@ const About = () => {
             </article>
           </div>
             <p>
-              I currently live in Oxford, Mississippi. I am currently employed as a server?
+              I currently live in Oxford, Mississippi. I am currently employed as a server.
               I am also enrolled in a one-year long non-profit program, <a href="https://basecampcodingacademy.org/about/"  className='basecamp__link' target="_blank">Base Camp Coding Academy</a>, where I am taught 7 different languages, frameworks, 
               and professional skills. I'm looking to get elbows deep into the software development field.
 

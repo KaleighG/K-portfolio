@@ -68,7 +68,10 @@ section > h2 {
 
 .text-dark {
   font-size: 55px;
-  color: rgba(245, 245, 17, 0.798);
+  text-shadow: -3px -3px 0 rgb(235, 235, 100), 3px -3px 0 rgb(235, 235, 100),
+    -3px 3px 0 rgb(235, 235, 100), 3px 3px 0 rgb(235, 235, 100); /* Adjust the shadow offsets for the outline */
+  border-radius: 20px;
+  color: black;
 }
 
 .header__socials a {
@@ -137,23 +140,16 @@ img {
   section {
     margin-top: 6rem;
   }
-
-  
 }
 
 /* ============== MEDIA Small DEVICES ======= */
 
 @media screen and (max-width: 600px) {
-   
-
-    .container {
+  .container {
     width: var(--container-width-sm);
-    }
+  }
 
-    section > h2 {
+  section > h2 {
     margin-bottom: 2rem;
-    }
-
- 
+  }
 }
-
