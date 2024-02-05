@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.cb43365d.css",
-    "main.js": "/static/js/main.5c386c87.js",
-    "static/media/QuestHubPic.png": "/static/media/QuestHubPic.e1cb4b8e9ffbdca4a8f8.png",
-    "static/media/AV.png": "/static/media/AV.0da65a7db172bfc2fd48.png",
-    "static/media/quest.jpg": "/static/media/quest.4f26c9ea3baee18c7213.jpg",
-    "static/media/me.jpg": "/static/media/me.d50a047199cc7d16e602.jpg",
-    "static/media/resume.pdf": "/static/media/resume.ea0e8a29979f23e884c9.pdf",
-    "static/media/ME.png": "/static/media/ME.96c722e16d5027a6bbe1.png",
-    "static/media/TreasureHubPic.jpg": "/static/media/TreasureHubPic.76ab6f550c9cc462d7c0.jpg",
-    "index.html": "/index.html",
-    "main.cb43365d.css.map": "/static/css/main.cb43365d.css.map",
-    "main.5c386c87.js.map": "/static/js/main.5c386c87.js.map"
+    "main.css": "/K-portfolio/static/css/main.cb43365d.css",
+    "main.js": "/K-portfolio/static/js/main.3cb5846f.js",
+    "static/media/QuestHubPic.png": "/K-portfolio/static/media/QuestHubPic.e1cb4b8e9ffbdca4a8f8.png",
+    "static/media/AV.png": "/K-portfolio/static/media/AV.0da65a7db172bfc2fd48.png",
+    "static/media/quest.jpg": "/K-portfolio/static/media/quest.4f26c9ea3baee18c7213.jpg",
+    "static/media/me.jpg": "/K-portfolio/static/media/me.d50a047199cc7d16e602.jpg",
+    "static/media/resume.pdf": "/K-portfolio/static/media/resume.ea0e8a29979f23e884c9.pdf",
+    "static/media/ME.png": "/K-portfolio/static/media/ME.96c722e16d5027a6bbe1.png",
+    "static/media/TreasureHubPic.jpg": "/K-portfolio/static/media/TreasureHubPic.76ab6f550c9cc462d7c0.jpg",
+    "index.html": "/K-portfolio/index.html",
+    "main.cb43365d.css.map": "/K-portfolio/static/css/main.cb43365d.css.map",
+    "main.3cb5846f.js.map": "/K-portfolio/static/js/main.3cb5846f.js.map"
   },
   "entrypoints": [
     "static/css/main.cb43365d.css",
-    "static/js/main.5c386c87.js"
+    "static/js/main.3cb5846f.js"
   ]
 }
