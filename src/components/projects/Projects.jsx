@@ -13,7 +13,7 @@ const Projects = () => {
           <div className="portfolio__item-image">
             <img src={AdventurerArchive} alt="Adventurer's Archive"/>
           </div>
-          <h3>Adventurer's Archive</h3>
+          <h3 className="text-dark">Adventurer's Archive</h3>
           <div className="portfolio__item-cta">
             <a href="http://github.com" className='btn'>Github</a>
 
@@ -23,7 +23,7 @@ const Projects = () => {
           <div className="portfolio__item-image">
             <img src={TreasureHub} alt="TreasureHub"/>
           </div>
-          <h3>TreasureHub</h3>
+          <h3 className="text-dark">TreasureHub</h3>
           <div className="portfolio__item-cta">
 
             <a href="http://github.com" className='btn'>Github</a>
@@ -33,7 +33,7 @@ const Projects = () => {
           <div className="portfolio__item-image">
             <img src={QuestHub} alt="QuestHub"/>
           </div>
-          <h3>QuestHub</h3>
+          <h3 className="text-dark">QuestHub</h3>
           <div className="portfolio__item-cta">
 
             <a href="http://github.com" className='btn'>Github</a>
@@ -43,7 +43,7 @@ const Projects = () => {
           <div className="portfolio__item-image">
             <img src={Conquest} alt="Conquest"/>
           </div>
-          <h3>Quest & Conquest</h3>
+          <h3 className="text-dark">Quest & Conquest</h3>
           <div className="portfolio__item-cta">
 
             <a href="http://github.com" className='btn'>Github</a>
