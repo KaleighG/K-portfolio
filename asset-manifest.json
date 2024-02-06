@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/K-portfolio/static/css/main.cb43365d.css",
-    "main.js": "/K-portfolio/static/js/main.3cb5846f.js",
+    "main.css": "/K-portfolio/static/css/main.97484646.css",
+    "main.js": "/K-portfolio/static/js/main.7ed6d33b.js",
     "static/media/QuestHubPic.png": "/K-portfolio/static/media/QuestHubPic.e1cb4b8e9ffbdca4a8f8.png",
     "static/media/AV.png": "/K-portfolio/static/media/AV.0da65a7db172bfc2fd48.png",
     "static/media/quest.jpg": "/K-portfolio/static/media/quest.4f26c9ea3baee18c7213.jpg",
@@ -10,11 +10,11 @@
     "static/media/ME.png": "/K-portfolio/static/media/ME.96c722e16d5027a6bbe1.png",
     "static/media/TreasureHubPic.jpg": "/K-portfolio/static/media/TreasureHubPic.76ab6f550c9cc462d7c0.jpg",
     "index.html": "/K-portfolio/index.html",
-    "main.cb43365d.css.map": "/K-portfolio/static/css/main.cb43365d.css.map",
-    "main.3cb5846f.js.map": "/K-portfolio/static/js/main.3cb5846f.js.map"
+    "main.97484646.css.map": "/K-portfolio/static/css/main.97484646.css.map",
+    "main.7ed6d33b.js.map": "/K-portfolio/static/js/main.7ed6d33b.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb43365d.css",
-    "static/js/main.3cb5846f.js"
+    "static/css/main.97484646.css",
+    "static/js/main.7ed6d33b.js"
   ]
 }
