@@ -10,13 +10,23 @@
 
 .about {
   text-align: center;
+  background: url("https://4kwallpapers.com/images/wallpapers/purple-light-geometric-glowing-lines-minimalist-5k-2880x1800-6724.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
 }
 
 .about__me {
   width: 100%;
   aspect-ratio: 1/1;
   border-radius: 2rem;
-  background: linear-gradient(45deg, rgb(87, 0, 128), silver, rgb(148, 100, 172));
+  background: linear-gradient(
+    45deg,
+    rgb(87, 0, 128),
+    silver,
+    rgb(148, 100, 172)
+  );
   display: grid;
   place-items: center;
 }
@@ -72,10 +82,10 @@
 .about__content p {
   margin: 2rem;
   width: 100%;
-  height:  30%;
+  height: 30%;
   aspect-ratio: 1/1;
   border-radius: 2rem;
-  background-color: black; 
+  background-color: black;
   display: grid;
   place-items: center;
   color: black;
@@ -97,7 +107,6 @@
   text-decoration: underline;
 }
 
-
 /* ============== MEDIA Med DEVICES ======= */
 
 @media screen and (max-width: 1024px) {
@@ -110,7 +119,6 @@
     width: 50%;
     margin: 2rem auto 4rem;
   }
-  
 
   .about__content {
     place-items: center;
@@ -122,10 +130,7 @@
 
 /* ============== MEDIA Small DEVICES ======= */
 
-
 @media screen and (max-width: 600px) {
-
-
   .about__cards {
     grid-template-columns: 1fr;
   }
@@ -147,6 +152,9 @@
 
 @media screen and (max-width: 400px) {
   .about__content p {
-    margin: 2rem 1rem;
+    margin: 5rem 0.5rem;
+    font-size: 1rem;
   }
+
+  
 }

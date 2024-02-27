@@ -6,7 +6,7 @@ import Conquest from '../../assests/quest.jpg'
 
 const Projects = () => {
   return (
-    <section id='projects'>
+    <section id='projects' className='projects'>
       <h2 className='text-dark'>My Projects</h2>
       <div className="container portfolio__container">
         <article className="portfolio__item">
@@ -15,7 +15,7 @@ const Projects = () => {
           </div>
           <h3 className="text-dark">Adventurer's Archive</h3>
           <div className="portfolio__item-cta">
-            <a href="http://github.com" className='btn'>Github</a>
+            <a href="http://github.com" className='btn'>Demo</a>
 
           </div>
         </article>
@@ -26,7 +26,7 @@ const Projects = () => {
           <h3 className="text-dark">TreasureHub</h3>
           <div className="portfolio__item-cta">
 
-            <a href="http://github.com" className='btn'>Github</a>
+            <a href="http://github.com" className='btn'>Demo</a>
           </div>
         </article>
         <article className="portfolio__item">
@@ -36,7 +36,7 @@ const Projects = () => {
           <h3 className="text-dark">QuestHub</h3>
           <div className="portfolio__item-cta">
 
-            <a href="http://github.com" className='btn'>Github</a>
+            <a href="http://github.com" className='btn'>Demo</a>
           </div>
         </article>
         <article className="portfolio__item">
@@ -46,7 +46,7 @@ const Projects = () => {
           <h3 className="text-dark">Quest & Conquest</h3>
           <div className="portfolio__item-cta">
 
-            <a href="http://github.com" className='btn'>Github</a>
+            <a href="http://github.com" className='btn'>Demo</a>
           </div>
         </article>
       </div>
