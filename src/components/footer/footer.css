@@ -1,0 +1,74 @@
+footer {
+  padding: 3rem 0;
+  text-align: center;
+  background: black;
+  font-size: 0.9rem;
+  margin-top: 7rem;
+}
+
+/* Flickering between light purple and dark purple */
+
+
+
+    
+
+@keyframes neon-glow {
+    to {
+      text-shadow: 0 0 10px #8a2be2, 0 0 20px #8a2be2, 0 0 30px #8a2be2;
+    }
+  }
+
+.footer__logo {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  display: inline-block;
+  transition: var(--transition);
+    animation: neon-glow 1s infinite alternate;
+}
+
+.permalinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0 auto 3rem;
+}
+
+.footer__socials {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+
+.footer__socials a {
+  background: black;
+  color: white;
+  padding: 1rem;
+  border-radius: 0.7rem;
+  display: flex;
+  border: 1px solid transparent;
+}
+
+.footer__socials a:hover {
+  background: transparent;
+  color: white;
+  border-color: white;
+}
+
+.footer__copyright {
+  margin-bottom: 4rem;
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .permalinks {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .footer__socials {
+    margin-bottom: 2.6rem;
+  }
+}
