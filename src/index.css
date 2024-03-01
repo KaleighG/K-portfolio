@@ -82,14 +82,14 @@ section > h2 {
 
 .title {
   transition: var(--transition);
-  cursor: pointer; /* Set the default cursor */
-  font-size: 65px; /* Adjust the default font size */
-  color: whitesmoke; /* Adjust the default text color */
+  cursor: pointer; 
+  font-size: 65px; 
+  color: whitesmoke; 
 }
 
 .title:hover {
   font-size: 75px;
-  color: rgb(149, 95, 199);
+  color: rgba(245, 245, 17, 0.798);
 }
 
 a {
@@ -117,10 +117,7 @@ a {
   font-size: 30px;
 }
 
-.btn-primary {
-  background: transparent;
-  color: black;
-}
+
 
 img {
   display: block;
