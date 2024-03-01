@@ -1,0 +1,118 @@
+:root {
+  --transition: 0.3s ease;
+}
+
+.experience {
+  background: url("https://4kwallpapers.com/images/wallpapers/purple-light-geometric-glowing-lines-minimalist-5k-2880x1800-6724.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.experience__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  padding-bottom: 10%;
+}
+
+.experience__container > div {
+  background: black;
+  font-size: 2rem;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  transition: var(--transition);
+  animation: neon-glow 1s infinite alternate;
+}
+
+@keyframes neon-glow {
+  to {
+    text-shadow: 0 0 10px #8a2be2, 0 0 20px #8a2be2, 0 0 30px #8a2be2;
+    box-shadow: 0 0 10px #8a2be2, 0 0 20px #8a2be2, 0 0 30px #8a2be2;
+  }
+}
+
+.experience__container > div h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.experience__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2.5rem;
+  column-gap: 2rem;
+}
+
+.experience__details {
+  display: flex;
+  color: silver;
+  gap: 1rem;
+}
+
+.experience__details:hover .experience__icons {
+  color: rgb(114, 13, 237);
+  animation: neon-glow 1s infinite alternate;
+}
+
+.experience__details-icon {
+  margin-top: 5px;
+}
+
+.i .experience_title {
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.experience__frontend,
+.experience__backend {
+  border-color: rgb(114, 13, 237);
+  font-weight: bold;
+  cursor: default;
+}
+
+.experience__frontend:hover,
+.experience__backend:hover {
+  animation: neon-glow 1s infinite alternate;
+}
+
+/* ============== MEDIA Med DEVICES ======= */
+
+@media screen and (max-width: 1024px) {
+  .experience__container {
+    grid-template-columns: 1fr;
+  }
+
+  .experience__container > div {
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+    margin-bottom: 10%;
+  }
+
+  .experience__content {
+    padding: 1rem;
+  }
+}
+
+/* ============== MEDIA Small DEVICES ======= */
+
+@media screen and (max-width: 600px) {
+  .experience__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .experience {
+    padding-bottom: 50%; /* Adjusted for smaller devices */
+  }
+
+  .experience__container > div {
+    width: 90%;
+    font-size: 1.2rem;
+    margin: 0 auto;
+  }
+}
